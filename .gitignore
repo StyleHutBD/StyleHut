@@ -1,41 +1,111 @@
-# Prerequisites
-*.d
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StyleHut - Luxury Fashion</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1 class="logo">StyleHut</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-# Precompiled Headers
-*.gch
-*.pch
+    <!-- Hero Slider -->
+    <section id="home" class="hero-slider">
+        <div class="slide active" style="background-image: url('https://via.placeholder.com/1200x600/000000/FFFFFF?text=Luxury+Style+1');">
+            <div class="hero-text">
+                <h2>Elevate Your Style with Elegance</h2>
+                <p>Discover premium fashion for men and women</p>
+                <a href="#shop" class="btn">Shop Now</a>
+            </div>
+        </div>
+        <div class="slide" style="background-image: url('https://via.placeholder.com/1200x600/111111/FFFFFF?text=Luxury+Style+2');">
+            <div class="hero-text">
+                <h2>Exclusive Collections</h2>
+                <p>Experience the art of fashion</p>
+                <a href="#shop" class="btn">Shop Now</a>
+            </div>
+        </div>
+        <div class="slide" style="background-image: url('https://via.placeholder.com/1200x600/222222/FFFFFF?text=Luxury+Style+3');">
+            <div class="hero-text">
+                <h2>Modern Luxury</h2>
+                <p>Timeless elegance in every piece</p>
+                <a href="#shop" class="btn">Shop Now</a>
+            </div>
+        </div>
+    </section>
 
-# Linker files
-*.ilk
+    <!-- Featured Products -->
+    <section id="shop" class="products">
+        <h2>Shop Our Collection</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x400" alt="Luxury Dress">
+                <h3>Luxury Dress</h3>
+                <p>$120</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x400" alt="Men's Suit">
+                <h3>Men's Suit</h3>
+                <p>$150</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x400" alt="Handbag">
+                <h3>Handbag</h3>
+                <p>$80</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x400" alt="Luxury Shoes">
+                <h3>Luxury Shoes</h3>
+                <p>$130</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x400" alt="Watch">
+                <h3>Elegant Watch</h3>
+                <p>$200</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x400" alt="Accessories">
+                <h3>Accessories</h3>
+                <p>$50</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </div>
+    </section>
 
-# Debugger Files
-*.pdb
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About StyleHut</h2>
+            <p>StyleHut is a luxury fashion brand delivering premium quality clothing and accessories for both men and women. Our designs combine elegance with modern style to make you stand out in every occasion. We aim to provide an unforgettable shopping experience for fashion enthusiasts worldwide.</p>
+        </div>
+    </section>
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+    <!-- Instagram Feed -->
+    <section class="instagram">
+        <h2>Follow Us on Instagram</h2>
+        <div class="insta-grid">
+            <img src="https://via.placeholder.com/200" alt="Instagram 1">
+            <img src="https://via.placeholder.com/200" alt="Instagram 2">
+            <img src="https://via.placeholder.com/200" alt="Instagram 3">
+            <img src="https://via.placeholder.com/200" alt="Instagram 4">
+            <
